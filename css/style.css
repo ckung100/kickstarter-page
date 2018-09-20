@@ -1,0 +1,96 @@
+body{
+  background: linear-gradient(45deg, white 25%, #DEFFFC 25%, #DEFFFC 50%, white 50%, white 75%, #DEFFFC 75%);
+  background-size:98px 98.9px;
+}
+
+div.transbox{
+  padding: 50px;
+  font-family: 'Nunito', sans-serif;
+  margin: auto;
+  width: 60%;
+  background-color: white;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#sugar{
+  font-size: 80px;
+  color: #706C61;
+  font-family: 'Sacramento', cursive;
+  padding-bottom: 40px;
+}
+
+p{
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+
+div.sidebox, div.sidebox2, div.sidebox3{
+  width: 200px;
+  padding: 10px;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  position: fixed;
+  vertical-align: bottom;
+  background-color: #FCA69F;
+  margin-top: 160px;
+  margin-left: 16px;
+  border-radius: 25px;
+}
+
+.sideimage{
+  z-index: 2;
+  float: left;
+  position: fixed;
+}
+
+div.sidebox{
+  margin-top: 460px;
+}
+
+div.sidebox2{
+  margin-top: 570px; 
+}
+
+div.sidebox3{
+  margin-top: 190px;
+  background-color: white;
+  border-style: dotted;
+  border-width: 5px;
+  border-color: #FCA69F;
+  width: 185px;
+}
+
+
+#goal{
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
+#offerEnds{
+  font-size: 14px;
+}
+
+
+.container {
+  font-family: 'Nunito', sans-serif;
+  color: #FCA69F;
+  text-align: center;
+  padding: 14px;
+  padding-bottom: 20px;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.4em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+li span {
+  display: block;
+  font-size: 4.5rem;
+}
