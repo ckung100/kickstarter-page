@@ -36,3 +36,56 @@ let countDown = new Date('Oct 8, 2018 01:00:00').getTime(),
         document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
 
 }, second)
+
+
+
+// pledgeLevels: [
+//     {
+//       name: '[Primary] BASIC Official SET',
+//       price: 22,
+//       includes: ['REAL sticker', '2x Pin badge', '3x Postcard'],
+//       available: true
+//     },
+//     {
+//       name: '[Secondary] BASIC Official SET',
+//       price: 22,
+//       includes: ['REAL sticker', '2x Pin badge', '3x Postcard'],
+//       available: true
+//     }
+//     {
+//       name: '[Secondary] Official Plushies',
+//       price: 71,
+//       includes: ['2x Plushies'],
+//       available: true
+//     },
+//     {
+//       name: '[Secondary] Full Official SET',
+//       price: 89,
+//       includes: ['REAL sticker', '2x Pin badge', '3x Postcard', '2x Plushies'],
+//       available: true
+//     }
+//     {
+//       name: '[Primary] Official Plushies',
+//       price: 71,
+//       includes: ['2x Plushies'],
+//       available: false
+//     },
+//     {
+//       name: '[Primary] Full Official SET',
+//       price: 89,
+//       includes: ['REAL sticker', '2x Pin badge', '3x Postcard', '2x Plushies'],
+//       available: false
+//     }
+//     {
+//       name: '[EVENT] Limited Reward',
+//       price: 223,
+//       includes: ['Commissioned illustration with frame', 'REAL sticker', '2x Pin badge', '3x Postcard', '2x Plushies'],
+//       available: false
+//     }
+// ]
+
+
+
+
+
+
