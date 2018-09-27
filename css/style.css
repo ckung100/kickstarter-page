@@ -62,6 +62,20 @@ div.sidebox3{
   width: 185px;
 }
 
+div.sidebox4{
+  position: relative;
+  float: right;
+  width: 200px;
+  padding: 10px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  background-color: #FCA69F;
+  margin-top: 60px;
+  margin-right: 10px;
+  border-radius: 25px;
+  color: white;
+}
+
 
 #goal{
   text-align: center;

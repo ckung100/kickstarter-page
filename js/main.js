@@ -19,6 +19,7 @@ description.textContent = sugar.description;
 
 
 
+
 const second = 1000,
       minute = second * 60,
       hour = minute * 60,
@@ -38,54 +39,73 @@ let countDown = new Date('Oct 8, 2018 01:00:00').getTime(),
 }, second)
 
 
+var pledgeLevels = [
+    {
+      name: '[Primary] BASIC Official SET',
+      price: 22,
+      features: 'REAL sticker, 2x Pin badge, 3x Postcard',
+      available: 'Available'
+    },
+    {
+      name: '[Secondary] BASIC Official SET',
+      price: 22,
+      features: 'REAL sticker, 2x Pin badge, 3x Postcard',
+      available: 'Available'
+    },
+    {
+      name: '[Secondary] Official Plushies',
+      price: 71,
+      features: '2x Plushies',
+      available: 'Available'
+    },
+    {
+      name: '[Secondary] Full Official SET',
+      price: 89,
+      features: 'REAL sticker, 2x Pin badge, 3x Postcard, 2x Plushies',
+      available: 'Available'
+    },
+    {
+      name: '[Primary] Official Plushies',
+      price: 71,
+      features: '2x Plushies',
+      available: 'Sold Out!'
+    },
+    {
+      name: '[Primary] Full Official SET',
+      price: 89,
+      features: 'REAL sticker, 2x Pin badge, 3x Postcard, 2x Plushies',
+      available: 'Sold Out!'
+    },
+    {
+      name: '[EVENT] Limited Reward',
+      price: 223,
+      features: 'Commissioned illustration with frame, REAL sticker, 2x Pin badge, 3x Postcard, 2x Plushies',
+      available: 'Sold Out!'
+    }
+];
 
-// pledgeLevels: [
-//     {
-//       name: '[Primary] BASIC Official SET',
-//       price: 22,
-//       includes: ['REAL sticker', '2x Pin badge', '3x Postcard'],
-//       available: true
-//     },
-//     {
-//       name: '[Secondary] BASIC Official SET',
-//       price: 22,
-//       includes: ['REAL sticker', '2x Pin badge', '3x Postcard'],
-//       available: true
-//     }
-//     {
-//       name: '[Secondary] Official Plushies',
-//       price: 71,
-//       includes: ['2x Plushies'],
-//       available: true
-//     },
-//     {
-//       name: '[Secondary] Full Official SET',
-//       price: 89,
-//       includes: ['REAL sticker', '2x Pin badge', '3x Postcard', '2x Plushies'],
-//       available: true
-//     }
-//     {
-//       name: '[Primary] Official Plushies',
-//       price: 71,
-//       includes: ['2x Plushies'],
-//       available: false
-//     },
-//     {
-//       name: '[Primary] Full Official SET',
-//       price: 89,
-//       includes: ['REAL sticker', '2x Pin badge', '3x Postcard', '2x Plushies'],
-//       available: false
-//     }
-//     {
-//       name: '[EVENT] Limited Reward',
-//       price: 223,
-//       includes: ['Commissioned illustration with frame', 'REAL sticker', '2x Pin badge', '3x Postcard', '2x Plushies'],
-//       available: false
-//     }
-// ]
+var pledgeLevelName, price, features, available;
+pledgeLevelName = document.getElementById('pledgeLevelName'); 
+price = document.getElementById('price');
+features = document.getElementById('features');
+available = document.getElementById('available');
 
+name.textContent = pledgeLevels.name;
+price.textContent = '$' + pledgeLevels.price; 
+features.textContent = pledgeLevels.features;
+available.textContent = pledgeLevels.available;
 
+var container = document.getElementById( 'pledge-container' );
 
+for ( i = 0; i < pledgeLevels.length; i++ ) {
+
+console.log( pledgeLevels[i] );
+container.innerHTML +=  '<h1>' + pledgeLevels[i].name + '</h1>';
+container.innerHTML += '<h2>' + 'Price: ' + '$' + pledgeLevels[i].price + '</h2>';
+container.innerHTML += '<h3>' + 'Features: ' + pledgeLevels[i].features + '</h3>';
+container.innerHTML += '<h4>' + 'Availability: ' + pledgeLevels[i].available + '</h4>' + '<br>';
+
+}
 
 
 
