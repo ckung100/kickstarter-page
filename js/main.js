@@ -85,15 +85,15 @@ var pledgeLevels = [
 ];
 
 var pledgeLevelName, price, features, available;
-pledgeLevelName = document.getElementById('pledgeLevelName'); 
-price = document.getElementById('price');
-features = document.getElementById('features');
-available = document.getElementById('available');
+// pledgeLevelName = document.getElementById('pledgeLevelName'); 
+// price = document.getElementById('price');
+// features = document.getElementById('features');
+// available = document.getElementById('available');
 
-name.textContent = pledgeLevels.name;
-price.textContent = '$' + pledgeLevels.price; 
-features.textContent = pledgeLevels.features;
-available.textContent = pledgeLevels.available;
+// name.textContent = pledgeLevels.name;
+// price.textContent = '$' + pledgeLevels.price; 
+// features.textContent = pledgeLevels.features;
+// available.textContent = pledgeLevels.available;
 
 var container = document.getElementById( 'pledge-container' );
 
